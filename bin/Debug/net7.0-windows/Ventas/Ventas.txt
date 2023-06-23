@@ -1,0 +1,116 @@
+Factura 
+Usuario: joaquin
+Datos de facturación: 
+Nombre: joaquin
+Apellido: ojeda
+Pais: Argentina
+Localidad: CABA
+Código postal: 1423
+Direccion: Calle 123
+Telefono: 123456789
+--------------------------------------------------------
+Datos tarjeta: 
+Nro tarjeta: 1234123412341234
+Vencimiento: 11/25
+Codigo: 123
+--------------------------------------------------------
+Productos: 
+Juego Resident Evil 4 Remaster
+Cantidad: 3
+Precio unitario: 12958
+Precio total: 38874
+--------------------------------------------------------
+Juego Mortal Kombat X
+Cantidad: 1
+Precio unitario: 2399
+Precio total: 2399
+--------------------------------------------------------
+Juego Mortal Kombat 11
+Cantidad: 1
+Precio unitario: 2399
+Precio total: 2399
+--------------------------------------------------------
+Total: 39304,8
+--------------------------------------------------------
+
+ Fin de venta 
+--------------------------------------------------------
+Factura 
+Usuario: joaquin
+Datos de facturación: 
+Nombre: joaquin
+Apellido: ojeda
+Pais: Argentina
+Localidad: caba
+Código postal: 1435
+Direccion: calle 1233
+Telefono: 123456789
+--------------------------------------------------------
+Productos: 
+Juego Sonic
+Cantidad: 1
+Precio unitario: 1990
+Precio total: 1990
+--------------------------------------------------------
+Juego GTA 5
+Cantidad: 1
+Precio unitario: 2849
+Precio total: 2849
+--------------------------------------------------------
+Juego The Legend of Zelda Ocarina of Time
+Cantidad: 1
+Precio unitario: 1990
+Precio total: 1990
+--------------------------------------------------------
+Juego The Legend of Zelda BOTW
+Cantidad: 1
+Precio unitario: 11539
+Precio total: 11539
+--------------------------------------------------------
+Juego The Legend of Zelda TOTK
+Cantidad: 1
+Precio unitario: 13459
+Precio total: 13459
+--------------------------------------------------------
+Total: 28644,3
+--------------------------------------------------------
+
+ Fin de venta 
+--------------------------------------------------------
+Factura 
+Usuario: juan10
+Datos de facturación: 
+Nombre: juan
+Apellido: perez
+Pais: argentina
+Localidad: caba
+Código postal: 1431
+Direccion: calle 123
+Telefono: 123456789
+--------------------------------------------------------
+Datos tarjeta: 
+Nro tarjeta: 1234123412341234
+Vencimiento: 11/27
+Codigo: 123
+--------------------------------------------------------
+Productos: 
+Juego Sonic
+Cantidad: 1
+Precio unitario: 1990
+Precio total: 1990
+--------------------------------------------------------
+Juego Minecraft
+Cantidad: 1
+Precio unitario: 2000
+Precio total: 2000
+--------------------------------------------------------
+Juego Crash Bandicoot
+Cantidad: 1
+Precio unitario: 1990
+Precio total: 1990
+--------------------------------------------------------
+Total: 5980
+--------------------------------------------------------
+
+ Fin de venta 
+--------------------------------------------------------
