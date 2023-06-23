@@ -89,6 +89,7 @@ namespace TPFinal
 
             this.juegos.Add(juego);
         }
+        //Funcion para llenar la lista de usuarios
         public void llenarLista()
         {
             foreach (string item in leerArchivo())
