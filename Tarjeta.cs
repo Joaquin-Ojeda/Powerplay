@@ -39,9 +39,9 @@ namespace TPFinal
                 crearPDF();
                 VentaTarjeta venta = new VentaTarjeta(detalles, DateTime.Now, usuario, total, textNombre.Text, textApellido.Text, textDireccion.Text, textPostal.Text, textLocalidad.Text, textPais.Text, textTelefono.Text, textTarjeta.Text, textMes.Text, textAnio.Text, textCodigo.Text);
                 venta.escribirTxt();
-                carrito.Visible = true;
                 MessageBox.Show("Factura lista ¡Gracias por su compra!", "Powerplay", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 carrito.limpiarCarrito();
+                carrito.getCatalogo().Visible = true;
                 this.Close();
             }
             catch (ArgumentException)

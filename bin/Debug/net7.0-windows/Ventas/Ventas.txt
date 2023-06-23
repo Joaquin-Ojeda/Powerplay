@@ -114,3 +114,79 @@ Total: 5980
 
  Fin de venta 
 --------------------------------------------------------
+Factura 
+Usuario: joaquin
+Datos de facturación: 
+Nombre: joaquin
+Apellido: a
+Pais: a
+Localidad: a
+Código postal: 1
+Direccion: a
+Telefono: 1
+--------------------------------------------------------
+Productos: 
+Juego Resident Evil 4 Remaster
+Cantidad: 1
+Precio unitario: 12958
+Precio total: 12958
+--------------------------------------------------------
+Total: 11662,2
+--------------------------------------------------------
+
+ Fin de venta 
+--------------------------------------------------------
+Factura 
+Usuario: joaquin
+Datos de facturación: 
+Nombre: a
+Apellido: a
+Pais: a
+Localidad: a
+Código postal: 1
+Direccion: a
+Telefono: 1
+--------------------------------------------------------
+Productos: 
+Juego Resident Evil 4 Remaster
+Cantidad: 1
+Precio unitario: 12958
+Precio total: 12958
+--------------------------------------------------------
+Juego Sonic
+Cantidad: 1
+Precio unitario: 1990
+Precio total: 1990
+--------------------------------------------------------
+Total: 13453,2
+--------------------------------------------------------
+
+ Fin de venta 
+--------------------------------------------------------
+Factura 
+Usuario: joaquin
+Datos de facturación: 
+Nombre: a
+Apellido: a
+Pais: a
+Localidad: a
+Código postal: 1
+Direccion: a
+Telefono: 1
+--------------------------------------------------------
+Datos tarjeta: 
+Nro tarjeta: 123456789123456
+Vencimiento: 11/25
+Codigo: 123
+--------------------------------------------------------
+Productos: 
+Juego Resident Evil 4 Remaster
+Cantidad: 1
+Precio unitario: 12958
+Precio total: 12958
+--------------------------------------------------------
+Total: 11662,2
+--------------------------------------------------------
+
+ Fin de venta 
+--------------------------------------------------------
