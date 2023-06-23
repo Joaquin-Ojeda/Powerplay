@@ -19,11 +19,12 @@ namespace TPFinal
             this.lUsuarios = new List<Usuario>();
             timer1.Start();
         }
+        //Fragmento de codigo para poder mantener click y mover la ventana del sistema
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
-
+        //contador para terminar el timer cuando llegue a 100
         int contador = 0;
 
         private void botonLogin_Click(object sender, EventArgs e)

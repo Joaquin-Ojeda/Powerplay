@@ -35,7 +35,7 @@ namespace TPFinal
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
-
+        //Funcion que se ejecuta al cargar el formulario
         private void Powerplay_Load(object sender, EventArgs e)
         {
             labelBienvenido.Text = "Bienvenido \n" + usuario.getNombre().ToUpper();
@@ -89,7 +89,7 @@ namespace TPFinal
 
             this.juegos.Add(juego);
         }
-        //Funcion para llenar la lista de usuarios
+        //Funcion para llenar la lista de juegos
         public void llenarLista()
         {
             foreach (string item in leerArchivo())

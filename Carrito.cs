@@ -177,5 +177,10 @@ namespace TPFinal
             calcularTotal();
             compra.Clear();
         }
+
+        public Powerplay getCatalogo()
+        {
+            return this.catalogo;
+        }
     }
 }

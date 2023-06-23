@@ -29,7 +29,7 @@ namespace TPFinal
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
-
+        //contador para terminar el timer cuando llegue a 100
         int contador = 0;
 
         private void buttonLogin_Click(object sender, EventArgs e)
