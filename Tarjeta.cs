@@ -60,7 +60,7 @@ namespace TPFinal
             {
                 throw new ArgumentException();
             }
-            if (int.Parse(textPostal.Text) <= 0 || int.Parse(textMes.Text) <= 0 || int.Parse(textMes.Text) > 12 || int.Parse(textAnio.Text) < 23 || int.Parse(textAnio.Text) <= 0 || int.Parse(textCodigo.Text) <= 0 || int.Parse(textCodigo.Text) > 999 || long.Parse(textTarjeta.Text)<=0 || long.Parse(textTelefono.Text) <= 0)
+            if (int.Parse(textPostal.Text) <= 0 || int.Parse(textMes.Text) <= 0 || int.Parse(textMes.Text) > 12 || int.Parse(textAnio.Text) < 23 || int.Parse(textAnio.Text) <= 0 || int.Parse(textCodigo.Text) <= 0 || int.Parse(textCodigo.Text) > 999 || long.Parse(textTarjeta.Text) <= 0 || long.Parse(textTelefono.Text) <= 0)
             {
                 throw new Exception();
             }
@@ -149,6 +149,36 @@ namespace TPFinal
                 carrito.Visible = true;
                 this.Close();
             }
+        }
+        //Cada vez que se aprete una tecla que no sea un numero dentro de estos campos se enviara una advertencia
+        private void textPostal_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.soloNumeros(e);
+        }
+
+        private void textTelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.soloNumeros(e);
+        }
+
+        private void textTarjeta_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.soloNumeros(e);
+        }
+
+        private void textMes_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.soloNumeros(e);
+        }
+
+        private void textAnio_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.soloNumeros(e);
+        }
+
+        private void textCodigo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.soloNumeros(e);
         }
     }
 }

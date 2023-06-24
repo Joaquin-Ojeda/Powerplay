@@ -110,5 +110,21 @@ namespace TPFinal
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
+        //Cada vez que se aprete una tecla que no sea un numero dentro de estos campos se enviara una advertencia
+        private void textBoxDia_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.soloNumeros(e);
+        }
+
+        private void textBoxMes_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.soloNumeros(e);
+        }
+
+        private void textBoxAnio_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.soloNumeros(e);
+        }
     }
 }

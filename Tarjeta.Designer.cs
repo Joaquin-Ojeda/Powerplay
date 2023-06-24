@@ -309,6 +309,7 @@
             textCodigo.Name = "textCodigo";
             textCodigo.Size = new Size(56, 27);
             textCodigo.TabIndex = 80;
+            textCodigo.KeyPress += textCodigo_KeyPress;
             // 
             // textAnio
             // 
@@ -319,6 +320,7 @@
             textAnio.Name = "textAnio";
             textAnio.Size = new Size(56, 27);
             textAnio.TabIndex = 79;
+            textAnio.KeyPress += textAnio_KeyPress;
             // 
             // textMes
             // 
@@ -329,6 +331,7 @@
             textMes.Name = "textMes";
             textMes.Size = new Size(56, 27);
             textMes.TabIndex = 78;
+            textMes.KeyPress += textMes_KeyPress;
             // 
             // textTarjeta
             // 
@@ -339,6 +342,7 @@
             textTarjeta.Name = "textTarjeta";
             textTarjeta.Size = new Size(233, 27);
             textTarjeta.TabIndex = 77;
+            textTarjeta.KeyPress += textTarjeta_KeyPress;
             // 
             // Tarjeta
             // 

@@ -98,7 +98,7 @@ namespace TPFinal
             }
         }
 
-        //funcion para mostrar los primeros juegos
+        //funcion para mostrar los juegos
         public void mostrarJuegos(List<Juego> listaJuegos)
         {
             int indice = int.Parse(labelIndice.Text);
@@ -391,6 +391,7 @@ namespace TPFinal
             }
             else
             {
+                labelIndice.Text = "1";
                 subJuegos = juegos;
                 mostrarJuegos(subJuegos);
             }
@@ -660,6 +661,7 @@ namespace TPFinal
                 }
                 else
                 {
+                    labelIndice.Text = "1";
                     mostrarJuegos(subJuegos);
                 }
             }

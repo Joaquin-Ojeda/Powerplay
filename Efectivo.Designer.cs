@@ -83,6 +83,7 @@
             textTelefono.Name = "textTelefono";
             textTelefono.Size = new Size(226, 27);
             textTelefono.TabIndex = 90;
+            textTelefono.KeyPress += textTelefono_KeyPress;
             // 
             // textPostal
             // 
@@ -93,6 +94,7 @@
             textPostal.Name = "textPostal";
             textPostal.Size = new Size(101, 27);
             textPostal.TabIndex = 89;
+            textPostal.KeyPress += textPostal_KeyPress;
             // 
             // textLocalidad
             // 
