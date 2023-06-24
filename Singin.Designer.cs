@@ -67,6 +67,7 @@
             textBoxAnio.Name = "textBoxAnio";
             textBoxAnio.Size = new Size(103, 27);
             textBoxAnio.TabIndex = 31;
+            textBoxAnio.KeyPress += textBoxAnio_KeyPress;
             // 
             // textBoxMes
             // 
@@ -77,6 +78,7 @@
             textBoxMes.Name = "textBoxMes";
             textBoxMes.Size = new Size(54, 27);
             textBoxMes.TabIndex = 30;
+            textBoxMes.KeyPress += textBoxMes_KeyPress;
             // 
             // textBoxDia
             // 
@@ -87,6 +89,7 @@
             textBoxDia.Name = "textBoxDia";
             textBoxDia.Size = new Size(54, 27);
             textBoxDia.TabIndex = 29;
+            textBoxDia.KeyPress += textBoxDia_KeyPress;
             // 
             // labelFecha
             // 

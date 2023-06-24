@@ -71,7 +71,7 @@ namespace TPFinal
         {
             SaveFileDialog guardar = new SaveFileDialog();
             DateTime hoy = DateTime.Now;
-            guardar.FileName = "Factura_" + hoy.Day.ToString() + "_" + hoy.Month.ToString() + "_" + hoy.Year.ToString()+"_"+hoy.Hour+"_"+hoy.Minute+"_"+hoy.Second;
+            guardar.FileName = "Factura_" + hoy.Day.ToString() + "_" + hoy.Month.ToString() + "_" + hoy.Year.ToString() + "_" + hoy.Hour + "_" + hoy.Minute + "_" + hoy.Second;
             guardar.Filter = "Pdf Files|*.pdf";
 
             //Estilos de fuente
@@ -150,6 +150,16 @@ namespace TPFinal
                 carrito.Visible = true;
                 this.Close();
             }
+        }
+        //Cada vez que se aprete una tecla que no sea un numero dentro de estos campos se enviara una advertencia
+        private void textPostal_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.soloNumeros(e);
+        }
+
+        private void textTelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.soloNumeros(e);
         }
     }
 }

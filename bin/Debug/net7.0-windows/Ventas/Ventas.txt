@@ -190,3 +190,30 @@ Total: 11662,2
 
  Fin de venta 
 --------------------------------------------------------
+Factura 
+Usuario: joaquin
+Datos de facturación: 
+Nombre: a
+Apellido: a
+Pais: a
+Localidad: a
+Código postal: 1
+Direccion: a
+Telefono: 1
+--------------------------------------------------------
+Productos: 
+Juego Resident Evil 4 Remaster
+Cantidad: 1
+Precio unitario: 12958
+Precio total: 12958
+--------------------------------------------------------
+Juego Resident Evil 7
+Cantidad: 1
+Precio unitario: 1620
+Precio total: 1620
+--------------------------------------------------------
+Total: 13120,2
+--------------------------------------------------------
+
+ Fin de venta 
+--------------------------------------------------------
